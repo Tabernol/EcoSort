@@ -3,11 +3,47 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/eco-server" name="eco-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/eco-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/waste-client" name="waste-client">
+                <projects>
+                  <project path="$PROJECT_DIR$/waste-client" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/eco-server" />
+            <option value="$PROJECT_DIR$/waste-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eco-server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eco-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/waste-client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/waste-client" />
           </set>
         </option>
       </GradleProjectSettings>

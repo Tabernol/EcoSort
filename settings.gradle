@@ -1,2 +1,5 @@
 rootProject.name = 'EcoSort'
 
+includeBuild 'eco-server'
+includeBuild 'waste-client'
+
